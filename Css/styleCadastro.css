@@ -1,0 +1,57 @@
+body {
+	background-image: url(../Imagens/fundo.jpg);
+}
+
+#fieldset-principal {
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px 0 #000000;
+	width: 60%;
+}
+
+fieldset {
+	background-color: ghostwhite;
+	margin: 20px auto;
+	width: 70%;
+}
+
+legend {
+	font-size: 25px;
+}
+
+
+label {
+	text-align: center;
+}
+
+input {
+	margin-bottom: 1em;
+}
+
+.inputBlock {
+	display: block;
+	margin-bottom: 1px;
+}
+
+#inputIdade {
+	width: 35px;
+}
+
+.textArea {
+	width: 95%;
+	height: 50px;
+}
+
+.botao {
+	background: linear-gradient(#FFFFFF,#1E90FF);
+	padding: 3px auto;
+	border: 1px solid blue;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-left: 180px;
+}
+
+.botao:hover {
+	cursor: pointer;
+	background: lightgreen;
+	transition: 3s;
+}

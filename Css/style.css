@@ -1,0 +1,66 @@
+body {
+	background-image: url(../Imagens/fundo.jpg);
+}
+
+fieldset {
+	border: 5px solid lightskyblue;
+	border-radius: 10px;
+	background: linear-gradient(#FFFFFF,#6495ED);
+	width: 25%;
+	margin: 10% auto;
+	padding: 20px 50px;
+	box-shadow: 10px 10px 10px 0 black;
+}
+
+label {
+	display: block;
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 1em;
+	text-shadow: 1px 3px 3px black;
+
+}
+
+.inputTexto {
+	border-radius: 5px;
+	height: 25px;
+	width: 100%;
+}
+
+.botaoEntrar {
+	background: linear-gradient(#87CEEB,#00BFFF);
+	border: 1px solid lightpink;
+	border-radius: 10px;
+	padding: 5px 20px;
+	display: block;
+	margin: 20px auto 10px auto;
+}
+
+.botaoEntrar:hover {
+	cursor: pointer;
+	background: lightgreen;
+	transition: 3s;
+}
+
+a {
+	text-decoration: none;
+}
+
+.botaoCadastrar {
+	width: 90px;
+	background: linear-gradient(#87CEEB,#00BFFF);
+	border: 1px solid lightpink;
+	border-radius: 10px;
+	padding: 5px 10px;
+	display: block;
+	margin: 5px auto;
+}
+
+.botaoCadastrar:hover {
+	cursor: pointer;
+	background: lightskyblue;
+	transition: 3s;
+}
